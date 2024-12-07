@@ -1,0 +1,1 @@
+This React Native bug occurs when using the `FlatList` component with a large dataset and complex item rendering.  The issue is that the `renderItem` function is not optimized and causes performance issues, leading to slow scrolling and potential crashes.  The `keyExtractor` function might be incorrectly implemented which leads to component re-renders and delays.
